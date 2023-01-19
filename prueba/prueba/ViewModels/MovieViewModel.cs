@@ -8,7 +8,6 @@ namespace prueba.ViewModels
 {
     public class MovieViewModel
     {
-        public List<Movie> Movies { get; set; }
-
+        public List<Movie> Movies { get; set; } 
     }
 }

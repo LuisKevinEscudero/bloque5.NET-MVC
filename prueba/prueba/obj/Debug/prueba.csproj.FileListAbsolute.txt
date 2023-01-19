@@ -122,3 +122,16 @@ C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\obj\Debug\prue
 C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\obj\Debug\prueba.Migrations.AddMembershipType.resources
 C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\obj\Debug\prueba.Migrations.PopulateMembershipTypes.resources
 C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\obj\Debug\prueba.Migrations.ApplyAnnotationsToCustomerName.resources
+C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\obj\Debug\prueba.Migrations.AddMembershipTypeName.resources
+C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\obj\Debug\prueba.Migrations.updateRecords.resources
+C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\obj\Debug\prueba.Migrations.addNullableBirthdate.resources
+C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\obj\Debug\prueba.Migrations.addBirthdates.resources
+C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\obj\Debug\prueba.Migrations.addMoviesToDatabase.resources
+C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\obj\Debug\prueba.Migrations.AddGenreToMovies.resources
+C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\obj\Debug\prueba.Migrations.addMoviesAndGenreRecords.resources
+C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\obj\Debug\prueba.Migrations.addGenreToIdentity.resources
+C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\obj\Debug\prueba.Migrations.addRecordsToMoviesAndGenre.resources
+C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\obj\Debug\prueba.Migrations.addRecordsToGenre.resources
+C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\obj\Debug\prueba.Migrations.addRecordsToMovies.resources
+C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\obj\Debug\prueba.Migrations.changeTablesGenreAndMovie.resources
+C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\obj\Debug\prueba.Migrations.changeMovieModel.resources
