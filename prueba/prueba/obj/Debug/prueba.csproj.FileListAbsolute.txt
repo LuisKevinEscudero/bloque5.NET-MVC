@@ -135,3 +135,9 @@ C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\obj\Debug\prue
 C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\obj\Debug\prueba.Migrations.addRecordsToMovies.resources
 C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\obj\Debug\prueba.Migrations.changeTablesGenreAndMovie.resources
 C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\obj\Debug\prueba.Migrations.changeMovieModel.resources
+C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\bin\System.Net.Http.Formatting.dll
+C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\bin\System.Web.Http.dll
+C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\bin\System.Web.Http.WebHost.dll
+C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\bin\System.Net.Http.Formatting.xml
+C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\bin\System.Web.Http.xml
+C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\bin\System.Web.Http.WebHost.xml
