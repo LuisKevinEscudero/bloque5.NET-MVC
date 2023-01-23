@@ -25,7 +25,7 @@ namespace prueba.Models
 
         [Display(Name = "Release Date")]
         [Required]
-        [minTodayDateForMovie]
+        //[minTodayDateForMovie]
         public DateTime ReleaseDate { get; set; }
 
         [Display(Name = "Number In Stock")]
