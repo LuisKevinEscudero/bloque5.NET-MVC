@@ -10,6 +10,12 @@ namespace prueba.DTOs
     {
         public static MovieDTO ToDTO(Movie movie)
         {
+            var genre = new GenreDTO
+            {
+                Id = (byte)movie.Genre.Id,
+                Name = movie.Genre.Name
+            };
+
             return new MovieDTO
             {
                 Id = movie.Id,
@@ -17,9 +23,11 @@ namespace prueba.DTOs
                 GenreId = movie.GenreId,
                 DateAdded = movie.DateAdded,
                 ReleaseDate = movie.ReleaseDate,
-                NumberInStock = movie.NumberInStock
+                NumberInStock = movie.NumberInStock,
+                Genre = genre
             };
         }
+
 
         public static Movie ToMovie(MovieDTO movieDTO)
         {

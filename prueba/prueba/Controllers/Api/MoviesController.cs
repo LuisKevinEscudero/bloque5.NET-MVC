@@ -7,6 +7,7 @@ using System.Data.Entity.Validation;
 using System.Linq;
 using System.Web;
 using System.Web.Http;
+using System.Data.Entity;
 
 namespace prueba.Controllers.Api
 {
@@ -22,7 +23,7 @@ namespace prueba.Controllers.Api
         // GET: api/Movies
         public IHttpActionResult GetMovies()
         {
-            var movies = _context.Movies.ToList();
+            var movies = _context.Movies.Include(g=>g.Genre).ToList();
             return Ok(movies.Select(MovieMapper.ToDTO).ToList()); 
         }
 
@@ -38,6 +39,7 @@ namespace prueba.Controllers.Api
 
         // POST: api/Movies
         [HttpPost]
+        [Authorize(Roles = RoleName.CanManageMovies)]
         public IHttpActionResult CreateMovie(MovieDTO movieDTO)
         {
             if (!ModelState.IsValid)
@@ -63,6 +65,7 @@ namespace prueba.Controllers.Api
 
         // PUT: api/Movies/1
         [HttpPut]
+        [Authorize(Roles = RoleName.CanManageMovies)]
         public IHttpActionResult UpdateMovie(int id, MovieDTO movieDTO)
         {
             if (!ModelState.IsValid)
@@ -80,6 +83,7 @@ namespace prueba.Controllers.Api
 
         // DELETE: api/Movies/1
         [HttpDelete]
+        [Authorize(Roles = RoleName.CanManageMovies)]
         public IHttpActionResult DeleteMovie(int id)
         {
             var movieInDb = _context.Movies.SingleOrDefault(d => d.Id == id);

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Data.Entity;
 
 namespace prueba.Controllers.Api
 {
@@ -22,7 +23,9 @@ namespace prueba.Controllers.Api
         // GET: api/Customers
         public List<CustomerDTO> GetCustomers()
         {
-            return _context.Customers.ToList()
+            return _context.Customers
+                .Include(c=>c.MembershipType)
+                .ToList()
                 .Select(Mapper.Map<Customer, CustomerDTO>).ToList();
         }
 

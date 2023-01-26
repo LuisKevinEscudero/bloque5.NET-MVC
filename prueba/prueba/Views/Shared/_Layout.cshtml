@@ -22,10 +22,20 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <!--<li>@Html.ActionLink("Home", "Index", "Home")</li>-->
                     <li>@Html.ActionLink("Customers", "Index", "Customers")</li>
                     <li>@Html.ActionLink("Movies", "Index", "Movies")</li>
+                    <li>@Html.ActionLink("Login", "Login", "Account")</li>
+                    <li>@Html.ActionLink("Register", "Register", "Account")</li>
                 </ul>
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <p style="color: white;">Welcome, @User.Identity.Name</p>
+                    <form method="post" action="@Url.Action("LogOff", "Account")">
+                        @Html.AntiForgeryToken()
+                        <input type="submit" value="Logout" onclick="return confirm('Are you sure you want to log out?');" />
+                    </form>
+                }
+
             </div>
         </div>
     </div>
@@ -37,8 +47,7 @@
         </footer>
     </div>
 
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/lib")
     @RenderSection("scripts", required: false)
 </body>
 </html>

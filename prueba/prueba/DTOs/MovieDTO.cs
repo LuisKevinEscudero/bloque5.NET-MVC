@@ -25,5 +25,7 @@ namespace prueba.DTOs
 
 
         public int NumberInStock { get; set; }
+
+        public GenreDTO Genre { get; set; }
     }
 }

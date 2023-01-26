@@ -27,15 +27,10 @@ namespace prueba.Controllers
         // GET: Movies
         public ActionResult Index()
         {
-
-            var movies = _context.Movies.Include(m => m.Genre).ToList();
-
-            var viewModel = new MovieViewModel
-            {
-                Movies = movies
-            };
-
-            return View(viewModel);
+            if (User.IsInRole(RoleName.CanManageMovies))
+                return View("List");
+            else
+                return View("ReadOnlyList");
         }
 
         public ActionResult Detail(int id)
@@ -48,6 +43,7 @@ namespace prueba.Controllers
             return View(movie);
         }
 
+        [Authorize(Roles = RoleName.CanManageMovies)]
         public ActionResult New()
         {
             var genres = _context.Genres.ToList();
@@ -62,6 +58,7 @@ namespace prueba.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = RoleName.CanManageMovies)]
         public ActionResult Save(Movie movie)
         {
             if (!ModelState.IsValid)
@@ -104,7 +101,8 @@ namespace prueba.Controllers
             return RedirectToAction("Index", "Movies");
         }
 
-
+        
+        [Authorize(Roles = RoleName.CanManageMovies)]
         public ActionResult Edit(int id)
         {
             

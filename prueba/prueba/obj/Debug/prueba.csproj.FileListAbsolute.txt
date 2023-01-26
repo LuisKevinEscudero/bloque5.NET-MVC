@@ -143,3 +143,15 @@ C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\bin\System.Web
 C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\bin\System.Web.Http.WebHost.xml
 C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\bin\AutoMapper.dll
 C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\bin\AutoMapper.xml
+C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\obj\Debug\prueba.Migrations.seedUsers.resources
+C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\obj\Debug\prueba.Migrations.addDrivingLicense.resources
+C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\bin\GoogleAuthentication.dll
+C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\obj\Debug\prueba.Migrations.addPhoneNumber.resources
+C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\obj\Debug\prueba.Migrations.addPhoneNumberCoorect.resources
+C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\obj\Debug\prueba.Migrations.addPhoneNumberToASPUsers.resources
+C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\obj\Debug\prueba.Migrations.addPhoneNumberAgain.resources
+C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\bin\Glimpse.Ado.dll
+C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\bin\Glimpse.AspNet.dll
+C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\bin\Glimpse.Core.dll
+C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\bin\Glimpse.EF6.dll
+C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\bin\Glimpse.Mvc5.dll
