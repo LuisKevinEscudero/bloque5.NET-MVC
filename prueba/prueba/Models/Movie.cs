@@ -14,7 +14,6 @@ namespace prueba.Models
         [Required]
         public string Name { get; set; }
 
-        
         public Genre Genre { get; set; }
 
         [Required]
@@ -25,12 +24,13 @@ namespace prueba.Models
 
         [Display(Name = "Release Date")]
         [Required]
-        //[minTodayDateForMovie]
         public DateTime ReleaseDate { get; set; }
 
         [Display(Name = "Number In Stock")]
         [Range(1, 20)]
         [Required]
         public int NumberInStock { get; set; }
+
+        public byte NumberAvailable { get; set; }
     }
 }

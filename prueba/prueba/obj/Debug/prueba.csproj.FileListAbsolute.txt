@@ -155,3 +155,4 @@ C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\bin\Glimpse.As
 C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\bin\Glimpse.Core.dll
 C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\bin\Glimpse.EF6.dll
 C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\bin\Glimpse.Mvc5.dll
+C:\Users\luiskevin.escudero\Desktop\bloque5.NET-MVC\prueba\prueba\obj\Debug\prueba.Migrations.addRentalModel.resources

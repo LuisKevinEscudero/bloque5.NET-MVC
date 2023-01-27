@@ -203,6 +203,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\Api\CustomersController.cs" />
     <Compile Include="Controllers\Api\MoviesController.cs" />
+    <Compile Include="Controllers\Api\NewRentalsController.cs" />
     <Compile Include="Controllers\CustomersController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -212,6 +213,7 @@
     <Compile Include="DTOs\MembershipTypeDTO.cs" />
     <Compile Include="DTOs\MovieDTO.cs" />
     <Compile Include="DTOs\MovieMapper.cs" />
+    <Compile Include="DTOs\NewRentalDTO.cs" />
     <Compile Include="GlimpseSecurityPolicy.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -312,10 +314,15 @@
     <Compile Include="Migrations\202301261052262_addPhoneNumberAgain.designer.cs">
       <DependentUpon>202301261052262_addPhoneNumberAgain.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202301270914017_addRentalModel.cs" />
+    <Compile Include="Migrations\202301270914017_addRentalModel.designer.cs">
+      <DependentUpon>202301270914017_addRentalModel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationUser.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Rental.cs" />
     <Compile Include="ViewModels\ExternalLoginConfirmationViewModel.cs" />
     <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -575,6 +582,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\NewRental\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -661,6 +669,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202301261052262_addPhoneNumberAgain.resx">
       <DependentUpon>202301261052262_addPhoneNumberAgain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202301270914017_addRentalModel.resx">
+      <DependentUpon>202301270914017_addRentalModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
