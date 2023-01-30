@@ -21,10 +21,16 @@ namespace prueba.Controllers.Api
         }
 
         // GET: api/Movies
-        public IHttpActionResult GetMovies()
+        public IHttpActionResult GetMovies(string query = null)
         {
-            var movies = _context.Movies.Include(g=>g.Genre).ToList();
-            return Ok(movies.Select(MovieMapper.ToDTO).ToList()); 
+            var moviesQuery = _context.Movies
+                .Include(m => m.Genre)
+                .Where(m => m.NumberAvailable > 0);
+
+            if (!String.IsNullOrWhiteSpace(query))
+                moviesQuery = moviesQuery.Where(m => m.Name.Contains(query));
+            
+            return Ok(moviesQuery.ToList().Select(MovieMapper.ToDTO));
         }
 
         // GET: api/Movies/1
